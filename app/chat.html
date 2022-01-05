@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/iconPage.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Chat</title>
+</head>
+<body>
+  <!-- ============= form messanger ============== -->
+  <header class="headerChat">
+    <button class="L-F-btns" id="findStr">Find</button>
+    <a class="logo" href="/"><span>ChatApp</span></a>
+    <button class="L-F-btns" id="leaveBtn">Exit</button>
+  </header>
+  <div id="alerts">
+    <div id="status"></div>
+    <ul id="msgContainer" ></ul>
+  </div>
+  <div class="con">
+    <div class="form">
+      <textarea type="text" id="msgInp" autocomplete="off" autofocus placeholder="write the message" ></textarea>
+      <button id="sendMsg" type="button">
+        <svg class="svgSend" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 0l20 10L0 20V0zm0 8v4l10-2L0 8z"/></svg>
+      </button>
+    </div>
+  </div>
+
+<!-- ============ scripts files ============= -->
+  <script src="socket.io/socket.io.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/home.css">
+  <title>Home</title>
+</head>
+<body>
+
+  <main>
+    <nav class="container">
+        <h1 class="logo">ChatApp</h1>
+    </nav>
+    <div class="typingContainer">
+      <p class="typingHome sen1"></p>
+      <p class="typingHome sen2"></p>
+    </div>
+    <div class="startContainer container">
+      <div class="checkContainer">
+        <input type="checkbox" id="checkOld" name="old">
+        <label for="checkOld">Are you over 18 years old</label>
+      </div>
+        <a href="/chat" class="startAncor"><button class="startBtn" disabled>Let's Talk</button></a>
+        <div id="alert" class="show">Please Check If You Are Over 18 Years Old</div>
+    </div>
+  </main>
+
+  <script src="js/home.js"></script>
+</body>
+</html>

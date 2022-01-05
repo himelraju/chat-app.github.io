@@ -1,0 +1,31 @@
+{
+  "name": "socketio",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-tools": "^9.17.0",
+    "socket.io": "^4.2.0",
+    "nodemon":"2.0.12",
+    "uniqueid": "^1.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hatemhos11/testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hatemhos11/testing/issues"
+  },
+  "homepage": "https://github.com/hatemhos11/testing#readme",
+  "description": ""
+}
